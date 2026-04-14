@@ -1,0 +1,13 @@
+{
+  "name": "test-portfolio",
+  "private": true,
+  "scripts": {
+    "generate:loop-video": "node scripts/generate-loop-video.js"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0"
+  }
+}
